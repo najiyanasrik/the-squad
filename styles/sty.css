@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('fitness-background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+}
+
+.container {
+    text-align: center;
+    padding: 50px;
+}
+
+header h1 {
+    font-size: 48px;
+}
+
+header p {
+    font-size: 24px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 20px;
+    color: white;
+    background-color: #630735;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #4b0345;
+}
+
+.hidden {
+    display: none;
+}
+
+#menu {
+    text-align: center;
+    padding: 50px;
+    background-color: rgba(0, 0, 0, 0.7);
+}
